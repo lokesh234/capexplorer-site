@@ -78,13 +78,6 @@ def home():
                   for i, (n, w, c, _) in enumerate(PIECES))
     legend = "".join(f'<li style="--c:{c}"{" class=\"rack\"" if rack else ""}>{html.escape(n)}</li>'
                      for n, _, c, rack in PIECES)
-    steps = [
-        ("0.6 m", "A compute tray", "Open it: GPUs, memory, boards, cold plates, and who makes each."),
-        ("2 m", "The rack", "Pull it apart and see each part's share of the $1,000."),
-        ("12 m", "The data hall", "Take the room apart: power, cooling, fibre and the shell around them."),
-        ("44 m", "The site", "Pull out to the building, the substation and the trench being dug."),
-    ]
-    steps_html = "".join(f'<li><span class="size">{s}</span><span class="what">{w}</span><p>{p}</p></li>' for s, w, p in steps)
     body = f"""
 <main>
 <section class="hero">
@@ -96,12 +89,6 @@ def home():
     <div class="bar" role="img" aria-label="A bar split into the parts of $1,000 of AI data center spending, from the compute tray, the largest, to permits and fees">{bar}</div>
     <ul class="legend">{legend}</ul>
   </figure>
-</section>
-
-<section class="ladder">
-  <h2>From a single tray to the whole site</h2>
-  <p>You start at the rack and zoom in or out. Every part opens to show what it is, its share of the money and the companies behind it.</p>
-  <ol class="steps">{steps_html}</ol>
 </section>
 
 <section class="section" id="support">
