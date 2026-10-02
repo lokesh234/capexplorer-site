@@ -26,6 +26,9 @@ PIECES = [
 ]
 
 EMAIL = "lgangaramaney@gmail.com"
+# A stamp on the stylesheet's URL, from its contents: a changed stylesheet is fetched afresh, not served from cache.
+import hashlib
+VERSION = hashlib.sha1(open(os.path.join(HERE, "assets", "site.css"), "rb").read()).hexdigest()[:8]
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com">'
          '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;600;700;800&display=swap" rel="stylesheet">')
@@ -54,7 +57,7 @@ def page(title, description, body, root, current):
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 {FONTS}
-<link rel="stylesheet" href="{root}assets/site.css">
+<link rel="stylesheet" href="{root}assets/site.css?v={VERSION}">
 </head>
 <body>
 <div class="wrap">
