@@ -1,8 +1,3 @@
----
-title: Privacy Policy
-permalink: /privacy/
----
-
 # CapExplorer Privacy Policy
 
 **Version 2026-10-01 · Effective October 1, 2026**

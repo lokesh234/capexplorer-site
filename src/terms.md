@@ -1,8 +1,3 @@
----
-title: Terms of Use
-permalink: /terms/
----
-
 # CapExplorer Terms of Use
 
 **Version 2026-10-01 · Effective October 1, 2026**
