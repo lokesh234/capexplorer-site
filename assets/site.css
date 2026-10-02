@@ -32,7 +32,7 @@ a:hover { color: var(--ink); }
 /* Header: the name, and the three places there are to go. */
 .top { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-top: 28px; }
 .mark { color: var(--ink); text-decoration: none; font-weight: 700; font-size: 18px; letter-spacing: -0.01em; display: inline-flex; align-items: center; gap: 10px; }
-.mark i { width: 14px; height: 14px; border-radius: 3px; background: var(--accent); box-shadow: 6px 6px 0 -1px #6aa8ff, 12px 12px 0 -2px #d98b3a; margin-right: 12px; }
+.mark img { width: 32px; height: 32px; border-radius: 8px; display: block; }
 .nav { display: flex; gap: 22px; font-size: 15px; }
 .nav a { color: var(--muted); text-decoration: none; }
 .nav a:hover, .nav a[aria-current="page"] { color: var(--ink); }

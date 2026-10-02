@@ -45,13 +45,21 @@ def page(title, description, body, root, current):
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(description)}">
 <meta name="theme-color" content="#07090c">
+<link rel="icon" type="image/png" sizes="32x32" href="{root}assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="{root}assets/favicon-64.png">
+<link rel="apple-touch-icon" href="{root}assets/apple-touch-icon.png">
+<meta property="og:title" content="{html.escape(title)}">
+<meta property="og:description" content="{html.escape(description)}">
+<meta property="og:image" content="https://lokesh234.github.io/capexplorer-site/assets/og-icon.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
 {FONTS}
 <link rel="stylesheet" href="{root}assets/site.css">
 </head>
 <body>
 <div class="wrap">
 <header class="top">
-  <a class="mark" href="{root}"><i aria-hidden="true"></i>CapExplorer</a>
+  <a class="mark" href="{root}"><img src="{root}assets/icon-96.png" alt="" width="32" height="32">CapExplorer</a>
   <nav class="nav" aria-label="Site">{nav}</nav>
 </header>
 {body}
