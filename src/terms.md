@@ -1,6 +1,6 @@
 # CapExplorer Terms of Use
 
-**Version 2026-10-19 · Effective October 19, 2026**
+**Version 2026-10-25 · Effective October 25, 2026**
 
 These terms are an agreement between you and Lokesh Gangaramaney ("we", "us"), the individual developer of the CapExplorer app ("the app"). By downloading or using the app you agree to them. If you don't agree, please don't use the app.
 
@@ -10,17 +10,16 @@ CapExplorer is an educational app. It uses interactive 3D models to show how spe
 ## 2. Not investment advice
 Everything in the app is for information and education only. Nothing in it is a recommendation to buy, sell or hold any security. It is not financial, investment, legal, tax or accounting advice. We are not a broker-dealer or an investment adviser. Before making any investment decision, do your own research or consult a licensed professional.
 
-**Scenarios and price targets.** For many companies the app shows a bear, base and bull value per share and a few analysts' price targets:
-- **Bear, base and bull are our scenarios**, produced by us. Each is arithmetic on stated inputs: the company's reported diluted earnings per share for its last fiscal year times a low, middle and high price/earnings multiple we chose for its sector. They are not price targets, fair-value opinions or forecasts. They ignore growth, debt, cash, dilution and currency moves, and they are not a basis for any investment decision.
+**Price targets.** For many companies the app shows a few analysts' price targets:
 - **Analysts' price targets are as reported in the press.** Each is the target a named firm was reported to have set, on the date shown, with a link to the article. We did not produce them, they are not a consensus, and the selection is not complete.
-- **Holdings.** The developer may hold securities of companies shown in the app. The scenarios are produced by the same method for every company, without regard to any holding.
+- **Holdings.** The developer may hold securities of companies shown in the app. The targets are gathered the same way for every company, without regard to any holding.
 
 ## 3. Estimates, not facts
 The dollar figures are an illustrative spending model, not audited figures:
 - **Our own estimates.** Many amounts, marked "~" or "est.", are our analysis built on public sources, and each comes with a range.
 - **Not a verified allocation.** The model is not a verified bill of materials or a measured market share.
 - **Overlapping revenues.** Revenues along a supply chain overlap: a chip maker's sale can include what it pays its own suppliers. The "upstream" figures are already inside the $1,000 and are not added to it.
-- **Point in time.** Sources were read at a point in time, and figures change. The app may not be updated each time they do. The per-share figures (earnings per share, the closing price and the reported targets) are as of the date shown with them.
+- **Point in time.** Sources were read at a point in time, and figures change. The app may not be updated each time they do. The reported price targets are as of the date shown with each.
 
 ## 4. No warranty
 The app and everything in it are provided "as is" and "as available", without warranties of any kind, express or implied. This includes warranties of accuracy, completeness, fitness for a particular purpose and non-infringement. We don't promise that the app will be error-free or uninterrupted.
@@ -53,8 +52,6 @@ You may not:
 - remove any notices
 
 The app, its models, text and design are owned by Lokesh Gangaramaney and protected by copyright and other laws. All rights not expressly granted are reserved.
-
-**One exception: the scenario method.** The bear/base/bull method and its table of sector multiples (section 2) are licensed under the Creative Commons Attribution 4.0 International licence (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/). You may reuse them with attribution to "CapExplorer". This does not cover the rest of the app, or the third-party figures and articles it cites.
 
 ## 9. Apple
 These terms are between you and us, not Apple. Apple is not responsible for the app or its content.
